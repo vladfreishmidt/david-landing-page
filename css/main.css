@@ -793,16 +793,17 @@ section.slider-section .info-p {
 .useful-section .useful-block .useful-text h3 {
   font-size: 30px;
   margin-bottom: 35px;
+  font-weight: 400;
 }
-/* line 29, ../scss/layout/_useful-section.scss */
+/* line 30, ../scss/layout/_useful-section.scss */
 .useful-section .useful-block .useful-text p {
   font-size: 15px;
 }
-/* line 33, ../scss/layout/_useful-section.scss */
+/* line 34, ../scss/layout/_useful-section.scss */
 .useful-section .useful-block .useful-text span {
   font-weight: 700;
 }
-/* line 37, ../scss/layout/_useful-section.scss */
+/* line 38, ../scss/layout/_useful-section.scss */
 .useful-section .useful-block .useful-text .useful-description {
   margin-top: -60px;
 }
