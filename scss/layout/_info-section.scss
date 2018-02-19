@@ -1,0 +1,88 @@
+.info-section {
+    background: url(../img/info-section-bg.jpg);
+    padding: 88px 0;
+    text-align: center;
+    .heading-wrapper { margin-bottom: 97px;}
+    h2 {
+        margin: 0 0 53px 0;
+    }
+
+    h2 + p {
+        font-family: $pt-sans;
+        color:  $white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22,5px;
+        text-transform: uppercase;
+        margin: 0 0 25px 0;
+    }
+
+    p {
+        font-family: $pt-sans;
+        color:  $white;
+        font-weight: 400;   
+    }
+
+    .stats {
+        justify-content: space-between;
+        margin-bottom: 62px;
+        .stats-item {
+            div {
+                width: 154px;
+                height: 161px;
+                align-items: center;
+                justify-content: center;
+                margin: 0 0 33px 0;
+                p {
+                    font-family: $pt-sans;
+                    color: $primary-color;
+                    font-size: 17px;
+                    font-weight: 700;
+                    span {
+                        display: block;
+                        font-size: 50px;
+                    }
+                }
+            }
+            
+            p {
+                font-family: $pt-sans;
+                color:  $primary-color;
+                font-size: 22px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .special-info-p {
+        font-family: $fregat-bold;
+        color:  $primary-color;
+        font-size: 24px;
+        text-transform: uppercase;
+        span {
+            font-size: 50px; 
+        }
+    }
+
+    .info-footer {
+        width: 65%;
+        margin: 0 auto;
+        h4 {
+            font-family: $pt-sans;
+            color:  $white;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22.5px;  
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: $pt-sans;
+            color:  $white;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22.5px;
+        }
+    }
+
+}

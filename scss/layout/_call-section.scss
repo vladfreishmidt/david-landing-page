@@ -1,0 +1,60 @@
+.call-section {
+    text-align: center;
+    background-color: $light-green;
+    padding: 60px 0;
+
+    h3 {
+        font-family: $fregat-bold;
+        color: $light-grey;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    h3 + p {
+        font-family: $pt-sans;
+        color:  #a2a2a2;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22.5px;
+        margin-bottom: 50px;
+    }
+
+    .adress-row {
+        margin: 0 auto 63px;
+        font-family: $pt-sans;
+        font-weight: 400;
+        color: $dark-grey;
+        line-height: 24px; 
+        justify-content: center;
+        width: 75%;
+
+        div {
+            flex: 0 0 33%;
+        }
+        .city {
+            font-size: 20px;
+             
+        }
+
+        .street, .phone {
+            font-size: 16px;
+        }
+    }
+
+    .btn-info-wrapper {
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+        .btn-info {
+            display: block;
+            color: $dark-grey;
+            padding-right: 50px;
+            padding-left: 50px;
+            border-color: $dark-grey;
+            border-width: 1px;
+        }
+    }
+}

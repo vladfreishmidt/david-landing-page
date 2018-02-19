@@ -1,0 +1,33 @@
+
+/* ----------------
+FONTS
+------------------*/ 
+
+@font-face {
+    font-family: 'Fregat_regular'; 
+    src: url(../fonts/Fregat_regular.otf); 
+    font-weight: normal;
+   }
+
+@font-face {
+    font-family: 'Fregat_bold'; 
+    src: url(../fonts/Fregat_bold.otf); 
+    font-weight: bold;
+   }
+
+$fregat-regular: 'Fregat_regular', sans-serif;
+$fregat-bold: 'Fregat_bold', sans-serif;
+
+$pt-sans: 'PT Sans', sans-serif;
+
+
+
+/* ----------------
+COLORS
+------------------*/ 
+
+$primary-color: #63b945;
+$light-green: #ddffcc;
+$light-grey: #707070;
+$dark-grey: #656565;
+$white: #fff;

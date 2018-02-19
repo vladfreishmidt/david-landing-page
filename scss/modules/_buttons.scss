@@ -1,0 +1,24 @@
+.btn-action,
+.btn-info {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-family: $pt-sans;
+    font-weight: 700;
+    border: 2px solid $primary-color;
+    border-radius: 5px;
+   
+}
+
+.btn-action {
+    color: $white;
+    background-color: $primary-color;
+    padding: 15px 50px;
+    margin-right: 35px; 
+}
+
+
+.btn-info { 
+    text-align: center;
+    padding: 15px 25px;
+}

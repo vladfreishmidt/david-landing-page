@@ -1,0 +1,42 @@
+.useful-section {
+    padding: 100px 0;
+
+    h2 {text-align: center; margin-bottom: 71px;}    
+
+    .useful-block {
+        justify-content: space-between;
+        margin-bottom: 70px; 
+
+        .useful-text {
+            flex: 0 0 55%;
+            font-family: $pt-sans;      
+            color:  #666666;
+            line-height: 22.5px;
+            font-weight: 400;
+
+            .useful-number {
+                font-family: $fregat-bold;
+                font-size: 200px;
+                line-height: 130px;
+                color: #bff6a3;
+            }
+
+            h3 {
+                font-size: 30px;
+                margin-bottom: 35px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            span {
+                font-weight: 700;
+            }
+
+            .useful-description {
+                margin-top: -60px;
+            }
+        }
+    }
+}
